@@ -1,0 +1,118 @@
+
+<html>
+<head>
+    <title>Tip Tip </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/battistore/pazxvida@main/panel.css" />
+    <script src="https://fastly.jsdelivr.net/npm/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/gh/battistore/pazxvida@main/panelmin.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://tiptipios.github.io/chanthuhoi/index/ad.css">
+    <link rel="stylesheet" href="https://tiptipios.github.io/ios/mup2.css">
+    <style> 
+        body {
+            transform: scale(00.8);
+            transform-origin: top left;
+          }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="ayimgui" style="background:rgba(0, 0, 0, 0.2)" >
+            <div id="particles-js"></div>
+            <template v-if="!bsok"><div class="pabg"><div class="left1" ><van-button @click="changeTab('1')" size="small"> Tip Tip  </van-button><br><van-button @click="changeTab('4')" size="small">Chức năng </van-button><br></div><div class="left2"><div class="font"><van-button id="toggleButton"><img src="https://cdn.jsdelivr.net/gh/tiptipios/ios@main/IMG_6318.png" width="40" height="40" style="width: 30px; height: 30px; border-radius: 50%; ">
+                <img src="https://cdn.jsdelivr.net/gh/tiptipios/chanthuhoi@main/Photoroom_20241019_123920.png" width="40" height="40" style="width: 130px; height: 30px; "></van-button>
+                <div id="colorContainer"></div>
+                </div></div>               
+             </div><div v-if="!isPasswordCorrect"><center><br><br><input id="passwordField" class="select" style="margin-top: 8px;" type="password" v-model="password" placeholder="Nhập mật khẩu ..."><br><van-button size="small" color="#var(--color-a)" @click="fillPassword">Nhập Pass</van-button>
+                    <br><van-button style=" margin: 8px 80px; width: 50%;" @click="checkPassword">Xác nhận</van-button><van-button style=" margin: 8px 125px; width: 150px;" @click="copyLink"> Lấy Key Free </van-button></center><br><div class="aytext" style="text-align: center;"><h1> Nhấp Vào Lấy Key Free </h1><h1> Mở Safari Dán vào tìm kiếm, vượt link để lấy password </h1></div></div>
+                <div v-if="isPasswordCorrect">
+                    <div class="right" >
+                        <div class="right1" >
+                            <div v-show="tabValue==='1'">
+                                <p> 
+                                    <font style="color:var(--color-g)">&nbsp;&nbsp;&nbsp;&nbsp;Tip Tip</font>
+                                </p> 
+                         <br>
+                         <p>
+                            <font style="color:var(--color-g)">&nbsp;&nbsp;&nbsp;&nbsp;Tham Gia page Telegram để cập nhật những bản hack mới nhất nhé  </font>
+                        </p>
+                         <van-button style="width:145px;"
+                                    size="small" color="#var(--color-a)" onclick="DC()"> Telegram Tổng
+                                </van-button><van-button style="width:145px;" size="small" color="#var(--color-a)"
+                                    onclick="YT()"> Telegram FreeFire </van-button>
+                            </div>
+
+<div v-show="tabValue === '4'">
+    <p>
+        <font style="color:var(--color-g)">&nbsp;&nbsp;&nbsp;&nbsp;Plants Vs Zombie 2   </font>
+    </p>
+    <van-button size="small" color="#var(--color-a)" onclick="t11t11()">
+Vô hạn kim cương 
+     </van-button> 
+    <van-button size="small" color="#var(--color-a)" onclick="t22t22()">
+   Vô hạn vàng 
+</van-button> <br> 
+
+    <van-button size="small" color="#var(--color-a)" onclick="t33t33()">
+Vô hạn kẹo 
+     </van-button> 
+    <van-button size="small" color="#var(--color-a)" onclick="t44t44()">
+Unlock cây 
+     </van-button> 
+<br> 
+    <van-button size="small" color="#var(--color-a)" onclick="t55t55()">
+Đặt cây miễn phí 
+               
+     </van-button> 
+    <van-button size="small" color="#var(--color-a)" onclick="t66t66()">
+Không thời gian hồi cây
+     </van-button> 
+     <p>
+        <font id="toast" style="color:var(--color-g)">&nbsp;&nbsp;&nbsp;&nbsp;  </font>
+    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+  
+    <script >
+        
+
+    </script>
+    <script>
+        let t = 0;
+        function animateBackground() {
+          const r = Math.floor(127 * Math.sin(t) + 128);
+          const g = Math.floor(127 * Math.sin(t + 2) + 128);
+          const b = Math.floor(127 * Math.sin(t + 4) + 128);
+          const color = `rgb(${r}, ${g}, ${b})`;
+        
+          // đổi màu border cho các khung
+          const elements = document.querySelectorAll(
+            '.left1, .left2, .right1, .right, .van-button, .van-cell, .ayimgui'
+          );
+          elements.forEach(el => {
+            el.style.borderColor = color;
+            el.style.boxShadow = `0 0 0px ${color} inset, 0 0 10px ${color}`;
+          });
+        
+          t += 0.005;
+          requestAnimationFrame(animateBackground);
+        }
+        animateBackground();
+        </script>
+    <script src=" https://tiptipios.github.io/chanthuhoi/spike.8.6.7.8.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/battistore/pazxvida@main/alert.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/battistore/pazxvida@main/index.js"></script>
+    <script src="https://tiptipios.github.io/ios/js/rov.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tiptipios/ios@main/js/link.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/y12xm/y12xmz@main/index.css"></script>
+    <script>setButtonImage('https://cdn.jsdelivr.net/gh/tiptipios/ios@main/tiptip.jpg')</script>
+</body>
+</html>
